@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogani</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- link css  -->
+    <!-- link icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <!-- link icon  -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header_top_left">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="bi bi-envelope-fill" style="margin-right: 5px;"></i>hello@colorlib.com
+                                </li>
+                                <li> Free Shipping for all Order of $99</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 ">
+                        <div class="header_top_right">
+                            <div class="header_top_right_social">
+                                <a href=""><img src="../image/icon/icons8-facebook-f-24.png" alt="fb" srcset=""></a>
+                                <a href=""><img src="../image/icon/icons8-twitter-18.png" alt="" srcset=""></a>
+                                <a href=""><img src="../image/icon/icons8-linkedin-2-18.png" alt="" srcset=""></a>
+                                <a class="me-0" href=""><img src="../image/icon/icons8-pinterest-p-18.png" alt=""
+                                        srcset=""></a>
+                            </div>
+                            <div class="header_top_right_language d-inline-block nav-item dropdown">
+                                <img src="../image/language.png" alt="" srcset="" class="d-inline-block">
+
+                                <a class="nav-link fs-14 d-inline-block dropdown-toggle" href=""
+                                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    English
+                                </a>
+                                <div class="dropdown-menu menu_language rounded-0"
+                                    aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item fs-14 py-0" href="#">Spanis</a>
+                                    <a class="dropdown-item fs-14 py-0" href="#">English</a>
+                                </div>
+                            </div>
+                            <div class="header_top_right_author d-inline-block fs-14">
+                                <i class="bi bi-person-fill" style="margin-right: 6px;"></i> Login
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header top  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="header_logo">
+                        <img src="../image/logo.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <nav class="navbar h-100  navbar-expand-lg navbar-dark py-0">
+                        <div class="container-fluid px-0">
+                            <a href="#" class="navbar-brand d-lg-none"><img src="../image/logo.png" alt=""></a>
+                            <button class="navbar-toggler menu_btn" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end " id="navbarOffcanvas" tabindex="-1"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header d-block d-lg-none p-0">
+                                    <div class="offcanvas_header_logo d-flex justify-content-between">
+
+                                        <a class="offcanvas-title " id="offcanvasNavbarLabel"><img
+                                                src="../image/logo.png" alt=""></a>
+                                        <button type="button" class="btn-close btn-close-black text-reset"
+                                            data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="header_cart text-start p-0" style="margin-bottom: 25px;">
+                                        <ul class="list-unstyled  mb-0">
+                                            <li>
+                                                <a href="">
+                                                    <i class="bi bi-heart-fill"></i><span>1</span>
+                                                </a>
+                                            </li>
+                                            <li><a href="">
+                                                    <i class="bi bi-handbag-fill"></i><span>3</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="header_cart_price">
+                                            item :
+                                            <span>$150.00</span>
+                                        </div>
+                                    </div>
+                                    <div class="header_top_right text-start p-0" style="    margin-bottom: 20px;">
+                                        <div class="header_top_right_language d-inline-block nav-item dropdown"
+                                            style="margin-right: 20px;">
+                                            <img src="../image/language.png" alt="" srcset="" class="d-inline-block">
+
+                                            <div class="nav-link fs-14 d-inline-block dropdown-toggle" href=""
+                                                id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                English
+                                            </div>
+                                            <div class="dropdown-menu menu_language rounded-0"
+                                                aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item fs-14 py-0" href="#">Spanis</a>
+                                                <a class="dropdown-item fs-14 py-0" href="#">English</a>
+                                            </div>
+                                        </div>
+                                        <div class="header_top_right_author d-inline-block fs-14">
+                                            <i class="bi bi-person-fill" style="margin-right: 6px;"></i> Login
+                                        </div>
+                                    </div>
+                                    <div class="offcanvas-body d-block d-lg-none p-0 d-lg-none"
+                                        style="    margin-bottom: 30px;">
+                                        <div class="slicky_menu_moblie">
+                                            <ul class="list-unstyled ">
+                                                <li><a href="../index.html">Home</a></li>
+                                                <li><a href="./shop_page.html">Shop</a> </li>
+                                                <li class="collapsible w-100"><a href="">Pages</a> <span></span> </li>
+                                                <ul class="content list-unstyled ">
+                                                    <li><a href="">Shop Details</a></li>
+                                                    <li><a href="./shop_cart_page.html">Shopping Cart</a></li>
+                                                    <li><a href="./checkout_page.html">Check out</a></li>
+                                                    <li><a href="">Blog Details</a></li>
+                                                </ul>
+                                                </li>
+                                                <li><a href="./blog_page.html">Blog</a> </li>
+                                                <li><a href="./contact_page.html">Contact</a> </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="header_top_right_social">
+                                        <a href=""><img src="../image/icon/icons8-facebook-f-24.png" alt="fb"
+                                                srcset=""></a>
+                                        <a href=""><img src="../image/icon/icons8-twitter-18.png" alt="" srcset=""></a>
+                                        <a href=""><img src="../image/icon/icons8-linkedin-2-18.png" alt=""
+                                                srcset=""></a>
+                                        <a class="me-0" href=""><img src="../image/icon/icons8-pinterest-p-18.png"
+                                                alt="" srcset=""></a>
+                                    </div>
+                                    <div class="header_top_left" style="padding: 10px 0 13px;">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><i class="bi bi-envelope-fill"
+                                                    style="margin-right: 5px;"></i>hello@colorlib.com
+                                            </li>
+                                            <li class="me-0 "> Free Shipping for all Order of $99</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- ///////////////////////// -->
+                                <div class="offcanvas-body d-none d-lg-flex justify-content-between "
+                                    style="padding: 24px 0">
+                                    <a class="navbar-nav justify-content-end align-items-center d-none d-lg-block ">
+                                        <a class="nav-item nav-link header_menu_link " aria-current="page"
+                                            href="../index.html">home</a>
+                                        <a class="nav-item nav-link header_menu_link active"
+                                            href="./shop_page.html">Shop</a>
+                                        <div class="nav-item nav-link header_menu_link page_btn dropdown">
+                                            <a class="nav-link  dropdown-toggle toggle_arrow" href=""
+                                                id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                pages
+                                            </a>
+                                            <div class="dropdown-menu menu_page rounded-0"
+                                                aria-labelledby="navbarDropdownMenuLink">
+                                                <a class="dropdown-item fs-14 py-0"
+                                                    href="./shop_cart_page.html">Shopping Cart</a>
+                                                <a class="dropdown-item fs-14 py-0" href="./checkout_page.html">Check
+                                                    Out</a>
+                                                <a class="dropdown-item fs-14 py-0" href="">Shop Details</a>
+                                                <a class="dropdown-item fs-14 py-0" href="#">Blog Details</a>
+                                            </div>
+                                        </div>
+                                        <a class="nav-item nav-link header_menu_link " href="./blog_page.html">blog</a>
+                                        <a class="nav-item nav-link header_menu_link"
+                                            href="./contact_page.html">contact</a>
+                                    </a>
+                                </div>
+                                <!-- /////////////////////////////// -->
+
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="header_cart">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="">
+                                    <i class="bi bi-heart-fill"></i><span>1</span>
+                                </a>
+                            </li>
+                            <li><a href="">
+                                    <i class="bi bi-handbag-fill"></i><span>3</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="header_cart_price">
+                            item :
+                            <span>$150.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- section hero  -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3" style="padding: 0 15px;">
+                    <div class="hero_categories">
+                        <div class="hero_categories_all">
+                            <i class="bi bi-list" width="16px" height="16px" style="color: white; "></i>
+                            <span>All departments</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                        <ul class="list-unstyled page_item" style="height: 0; padding:0;">
+                            <li><a href="#">Fresh Meat</a></li>
+                            <li><a href="#">Vegetables</a></li>
+                            <li><a href="#">Fruit &amp; Nut Gifts</a></li>
+                            <li><a href="#">Fresh Berries</a></li>
+                            <li><a href="#">Ocean Foods</a></li>
+                            <li><a href="#">Butter &amp; Eggs</a></li>
+                            <li><a href="#">Fastfood</a></li>
+                            <li><a href="#">Fresh Onion</a></li>
+                            <li><a href="#">Papayaya &amp; Crisps</a></li>
+                            <li><a href="#">Oatmeal</a></li>
+                            <li><a href="#">Fresh Bananas</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="hero_search " style="margin-bottom: 30px">
+                        <div class="row " style="padding:0 15px ;">
+                            <div class="hero_search_form col-md-8 px-0">
+                                <form action="#">
+                                    <div class="hero_search_categories d-none d-md-block">All Categories
+                                        <i class="bi bi-chevron-down ms-2"></i>
+                                    </div>
+                                    <input type="text" name="" id="" placeholder="What do yo u need ?">
+                                    <button type="submit" class="site_btn">SEARCH</button>
+                                </form>
+                            </div>
+                            <div class="hero_search_phone col-md-4  mt-md-0 mt-4 justify-content-end">
+                                <div class="hero_search_phone_icon ms-lg-3"><i class="bi bi-telephone-fill"></i></div>
+                                <div class="hero_search_phone_text">
+                                    <h5>+65 11.188.888</h5>
+                                    <span>support 24/7 time</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section hero  end-->
+    <!-- section breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <div class="row col-12 text-center">
+                <div class="breadcrumb_text">
+                    <h2>Checkout</h2>
+                    <div class="breadcrumb_option"><a href="">Home</a><span>Checkout
+                        </span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section breadcrumb end-->
+    <section class="checkout spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h6><i class="bi bi-tag"></i> Have a coupon? <a href="#">Click here</a> to enter your code
+                    </h6>
+                </div>
+            </div>
+            <div class="checkout_form">
+                <h4>Billing Details</h4>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout_input">
+                                        <p>Fist Name<span>*</span></p>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout_input">
+                                        <p>Last Name<span>*</span></p>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout_input">
+                                <p>Country<span>*</span></p>
+                                <input type="text">
+                            </div>
+                            <div class="checkout_input">
+                                <p>Address<span>*</span></p>
+                                <input type="text" placeholder="Street Address" class="checkout_input_add">
+                                <input type="text" placeholder="Apartment, suite, unite ect (optinal)">
+                            </div>
+                            <div class="checkout_input">
+                                <p>Town/City<span>*</span></p>
+                                <input type="text">
+                            </div>
+                            <div class="checkout_input">
+                                <p>Country/State<span>*</span></p>
+                                <input type="text">
+                            </div>
+                            <div class="checkout_input">
+                                <p>Postcode / ZIP<span>*</span></p>
+                                <input type="text">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout_input">
+                                        <p>Phone<span>*</span></p>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout_input">
+                                        <p>Email<span>*</span></p>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout_input_checkbox">
+                                <label for="acc">
+                                    Create an account?
+                                    <input type="checkbox" id="acc">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <p class="check">Create an account by entering the information below. If you are a returning
+                                customer
+                                please login at the top of the page</p>
+                            <div class="checkout_input">
+                                <p>Account Password<span>*</span></p>
+                                <input type="text">
+                            </div>
+                            <div class="checkout_input_checkbox">
+                                <label for="diff-acc">
+                                    Ship to a different address?
+                                    <input type="checkbox" id="diff-acc">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkout_input">
+                                <p>Order notes<span>*</span></p>
+                                <input type="text"
+                                    placeholder="Notes about your order, e.g. special notes for delivery.">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="checkout_order">
+                                <h4>Your Order</h4>
+                                <div class="checkout_order_products">Products <span>Total</span></div>
+                                <ul>
+                                    <li>Vegetable’s Package <span>$75.99</span></li>
+                                    <li>Fresh Vegetable <span>$151.99</span></li>
+                                    <li>Organic Bananas <span>$53.99</span></li>
+                                </ul>
+                                <div class="checkout_order_subtotal">Subtotal <span>$750.99</span></div>
+                                <div class="checkout_order_total">Total <span>$750.99</span></div>
+                                <div class="checkout_input_checkbox">
+                                    <label for="acc-or">
+                                        Create an account?
+                                        <input type="checkbox" id="acc-or">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <p class="check">Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod
+                                    tempor incididunt
+                                    ut labore et dolore magna aliqua.</p>
+                                <div class="checkout_input_checkbox">
+                                    <label for="payment">
+                                        Check Payment
+                                        <input type="checkbox" id="payment">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="checkout_input_checkbox">
+                                    <label for="paypal">
+                                        Paypal
+                                        <input type="checkbox" id="paypal">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="site_btn">PLACE ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <footer class="footer squad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer_about">
+                        <div class="footer_about_logo">
+                            <img src="../image/logo.png" alt="" srcset="">
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>Address: 60-49 Road 11378 New York</li>
+                            <li>Phone: +65 11.188.888</li>
+                            <li>Email: hello@colorlib.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer_widget">
+                        <h6>Useful Links</h6>
+                        <ul class="list-unstyled">
+                            <li>About Us</li>
+                            <li>About Our Shop</li>
+                            <li>Secure Shopping</li>
+                            <li>Delivery infomation</li>
+                            <li>Privacy Policy</li>
+                            <li>Our Sitemap</li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>Who We Are</li>
+                            <li>Our Services</li>
+                            <li>Projects</li>
+                            <li>Contact</li>
+                            <li>Innovation</li>
+                            <li>Testimonials</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer_widget">
+                        <h6>Join Our Newsletter Now</h6>
+                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <form action="">
+                            <input type="text" placeholder="Enter your mail">
+                            <button class="site_btn">Subscribe</button>
+                        </form>
+                        <div class="footer_widget_social">
+                            <a href=""><i class="bi bi-meta"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer_copyright">
+                        <div class="footer_copyright_text">
+                            <p>Copyright ©2022 All rights reserved | This template is made with<i
+                                    class="bi bi-heart-fill"></i>
+                                by
+                                <a href="">Colorlib</a>
+                            </p>
+                        </div>
+                        <div class="footer_copyright_payment">
+                            <img src="../image/payment-item.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- link js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- link js  -->
+</body>
+
+</html>
